@@ -37,7 +37,8 @@ means to protect attributes/methods using these keywords public/private/protecte
 + No need to be called
 + () will given if it has constructor with parameter
 
-## 4) Polymorphism (multi inheritance)- allows multiple class with various functionalities to implement or share a common Interface
+## 4) Polymorphism (multi inheritance)-
+                           allows multiple class with various functionalities to implement or share a common Interface
 + Abstract+interface+trait == polymorphism
 + Most familiar - abstract, interface, trait
 + Can override the parent class methods.
