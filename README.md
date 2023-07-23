@@ -37,45 +37,48 @@ means to protect attributes/methods using these keywords public/private/protecte
 + No need to be called
 + () will given if it has constructor with parameter
 
-4) Polymorphism (multi inheritance)- allows multiple class with various functionalities to implement or share a common Interface
-Abstract+interface+trait == polymorphism
-Most familiar - abstract, interface, trait
-Can override the parent class methods.
-Parent::methodName()
+## 4) Polymorphism (multi inheritance)- allows multiple class with various functionalities to implement or share a common Interface
++ Abstract+interface+trait == polymorphism
++ Most familiar - abstract, interface, trait
++ Can override the parent class methods.
++ Parent::methodName()
 
-Abstract+interface => override the parent functions
+**Abstract+interface => override the parent functions**
 
-5) Abstract class:
-Must include abstract keyword before class.
-Syntax: abstract class className{}
-Have to extend by other class
-Property, method can be public, private, protected.
-May have so many methods, but at least 1 abstract method
-No need to define body in abstract method 
-Not allowed to make object
-Without extend you can’t access its property and methods and you can use its abstract method or not.
-Abstract a kisu instruction thakbe ja extend korle must use kortei hobe
+## 5) Abstract class:
++ Must include abstract keyword before class.
++ Syntax: abstract class className{}
++ Have to extend by other class
++ Property, method can be public, private, protected.
++ May have so many methods, but at least 1 abstract method
++ No need to define body in abstract method 
++ Not allowed to make object
++ Without extend you can’t access its property and methods and you can use its abstract method or not.
++ Abstract a kisu instruction thakbe ja extend korle must use kortei hobe
 
-Interface:
-Must include interface keyword before className(it has no class keyword).
-As it’s not a class, so can’t use extends but implements
-Allow to define only a few functions, nothing is allowed to its body.
-You must have to use interface functions if you implement
-And then override the functions. 
+## 6) Interface:
++ Must include interface keyword before className(it has no class keyword).
++ As it’s not a class, so can’t use extends but implements
++ Allow to define only a few functions, nothing is allowed to its body.
++ You must have to use interface functions if you implement
++ And then override the functions. 
 
-Abstract + Interface +trait = polymorphism
-Interface => implements (you can implement so many interfaces)
-Trait => use (as your wish)
-1 Class =>
- extends(1 class/1 abstract),
- implements(multiple interface), 
-use(multiple trait), 
+## Note: 
++ Abstract + Interface +trait = polymorphism
++ Interface => implements (you can implement so many interfaces)
++ Trait => use (as your wish)
+## 1 Class can =>
+         + extends(1 class/1 abstract),
+         + implements(multiple interface), 
+         + use(multiple trait), 
 
-Note: Implement korlei function use kortei hobe, noile error asbe
+**Note:** Implement korlei function use kortei hobe, noile error asbe
 
-Trait: 
-Trait == multi inheritance, start a trait keyword thakte hobe, aker odhik extend need hole trait 
-Vitore Use korte hoy
-Trait class er moto, kintu class na. So, private/protected property/method access kora jabe na.
-Difference between Abstract Class and Interface 
-Abstract: class is a class that cannot be instantiated and can contain both abstract and non-abstract methods. Interface: specifies a set of methods that a class must implement.
+## 7) Trait: 
++ Trait == multi inheritance, start a trait keyword thakte hobe, aker odhik extend need hole trait 
++ Vitore Use korte hoy
++ Trait class er moto, kintu class na. So, private/protected property/method access kora jabe na.
+
+## Difference between Abstract Class and Interface 
++ **Abstract**: class is a class that cannot be instantiated and can contain both abstract and non-abstract methods.
++ **Interface**: specifies a set of methods that a class must implement.
