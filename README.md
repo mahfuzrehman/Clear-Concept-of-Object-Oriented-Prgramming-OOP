@@ -4,37 +4,38 @@
 
 + className will be capital letter
 + There’s few properties and methods
-Few access modifiers - public, private, protected, static
-Can create object/instance by new className.
-If you want to access own property in a method, have to use $this keyword.
-If property/methods are static then no need to create an object, just self/className::method_Name(:: - superscope regulation operator).
-Encapsulation, polymorphism
++ Few access modifiers - public, private, protected, static
++ Can create object/instance by new className.
++ If you want to access own property in a method, have to use $this keyword.
++ If property/methods are static then no need to create an object, <br/>
++ just self/className::method_Name(:: - superscope regulation operator).
++ Encapsulation, polymorphism
 
-Create object: 
-Creating a object is only and only for class
-1 class can extend only one class
-Interface & abstract & trait == Object Not allowed.
-Multiple inheritance => if you want to access so many classes
+## Create object: 
++ Creating a object is only and only for class
++ 1 class can extend only one class
++ Interface & abstract & trait == Object Not allowed.
++ Multiple inheritance => if you want to access so many classes
 
-1) Access Modifier:
+## 1) Access Modifier:
 
-Public - possible to access any property/method from outside of a class
++ **Public** - possible to access any property/method from outside of a class
 
-Protected - can't access from out of class without getting permission.
++ **Protected** - can't access from out of class without getting permission.
 
-Tricks to access- make a public method, return the protected attribute and then call the methods by creating an object.
+**Tricks to access**- make a public method, return the protected attribute and then call the methods by creating an object.
 
 Means - if the protected property/method is used in a public method then it can be and you have to use $this keyword.
 
-This rules also applicable for inheritance
++ This rules also applicable for inheritance
 
-2) Encapsulation- means to protect attributes/methods using these keywords public/private
-/protected/abstract/final from outside access of a class.
+## 2) Encapsulation- 
+means to protect attributes/methods using these keywords public/private/protected/abstract/final from outside access of a class.
 
-3) Constructor(Built-in Magic method)
-Automatic called when object is created
-No need to be called
-() will given if it has constructor with parameter
+## 3) Constructor(Built-in Magic method)
++ Automatic called when object is created
++ No need to be called
++ () will given if it has constructor with parameter
 
 4) Polymorphism (multi inheritance)- allows multiple class with various functionalities to implement or share a common Interface
 Abstract+interface+trait == polymorphism
