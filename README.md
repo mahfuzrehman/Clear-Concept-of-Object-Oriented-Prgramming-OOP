@@ -21,7 +21,7 @@
 
 + **Public** - possible to access any property/method from outside of a class
 
-+ **Protected** - can't access from out of class without getting permission.
++ **Protected/Private** - can't access from out of class without getting permission.
 
 **Tricks to access**- make a public method, return the protected attribute and then call the methods by creating an object.
 
